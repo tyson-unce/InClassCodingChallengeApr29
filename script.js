@@ -33,15 +33,14 @@ const countLetters = (p1,p2) => {
     {p2.push(thisList)
     }
 }
-return console.log(thisList.length)
+let thisLength = thisList.length
+return console.log(thisLength)
 }
 
 countLetters('Hello my name is John', 'i')
 
 
-// function countOccurences(p1, p2) {
-//     return p1.split(p2).length - 1;
-//  }
+
 
 
 
