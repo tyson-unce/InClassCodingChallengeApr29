@@ -28,16 +28,19 @@ const add100 = money => money + 100;
 
 const countLetters = (p1,p2) => {
     var thisList = []
-    for (i = 0; i >= p1.length; i++)
+    for (i = 0; i <= p1.length; i++)
 {   if (p1.includes(p2))
-    {p2.push(thisList)
+    {thisList.push(p2)
     }
 }
 let thisLength = thisList.length
-return console.log(thisLength)
+return console.log(thisList)
 }
 
 countLetters('Hello my name is John', 'i')
+
+
+
 
 
 
